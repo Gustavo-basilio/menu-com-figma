@@ -1,0 +1,38 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+}
+.menu li a:hover{
+    background-color: chartreuse;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    font-weight: 800;
+    padding: 20px;
+}
+.logo img {
+    width:45px;
+    height: 42px;
+}
+
+.botao {
+    color: aliceblue;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 300;
+}
